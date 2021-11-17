@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.FirstPageDesign">
+   <children>
+      <Button fx:id="clientOperation" layoutX="210.0" layoutY="120.0" mnemonicParsing="false" onAction="#performClientOperation" style="-fx-background-color: RED;" text="Perform client operations" textFill="WHITE" />
+      <Button fx:id="productOperation" layoutX="203.0" layoutY="187.0" mnemonicParsing="false" onAction="#performProductOperation" style="-fx-background-color: RED;" text="Perform product operations" textFill="WHITE" />
+      <Button fx:id="orderOperation" layoutX="210.0" layoutY="248.0" mnemonicParsing="false" onAction="#performOrderOperation" style="-fx-background-color: RED;" text="Perform order operations" textFill="WHITE" />
+      <Label layoutX="174.0" layoutY="58.0" text="Welcome to the Order Management Page!" textFill="WHITE" />
+   </children>
+</AnchorPane>

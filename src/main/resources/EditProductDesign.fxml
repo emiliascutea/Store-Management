@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.ProductDesign">
+   <children>
+      <Button layoutX="47.0" layoutY="31.0" mnemonicParsing="false" onAction="#closeButtonProduct" style="-fx-background-color: red;" text="Back" textFill="WHITE" />
+      <Button layoutX="248.0" layoutY="318.0" mnemonicParsing="false" onAction="#editProductButton" style="-fx-background-color: red;" text="Edit product" textFill="WHITE" />
+      <Label layoutX="92.0" layoutY="90.0" text="Insert product's ID:" textFill="WHITE" />
+      <Label layoutX="92.0" layoutY="140.0" text="Insert new name:" textFill="WHITE" />
+      <Label layoutX="93.0" layoutY="191.0" text="Insert new price:" textFill="WHITE" />
+      <Label layoutX="93.0" layoutY="243.0" text="Insert new quantity:" textFill="WHITE" />
+      <TextField fx:id="updateID" layoutX="259.0" layoutY="86.0" style="-fx-background-color: red;" />
+      <TextField fx:id="updateName" layoutX="259.0" layoutY="136.0" style="-fx-background-color: red;" />
+      <TextField fx:id="updatePrice" layoutX="259.0" layoutY="188.0" style="-fx-background-color: red;" />
+      <TextField fx:id="updateQuantity" layoutX="259.0" layoutY="239.0" style="-fx-background-color: red;" />
+   </children>
+</AnchorPane>

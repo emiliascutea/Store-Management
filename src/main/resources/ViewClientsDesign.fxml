@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="556.0" prefWidth="865.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.ClientDesign">
+   <children>
+      <Button layoutX="38.0" layoutY="32.0" mnemonicParsing="false" onAction="#closeButtonClient" style="-fx-background-color: red;" text="Back" textFill="WHITE" />
+      <TableView fx:id="table" layoutX="74.0" layoutY="128.0" prefHeight="372.0" prefWidth="670.0" style="-fx-background-color: red;">
+        <columns>
+          <TableColumn fx:id="col_id" prefWidth="48.800018310546875" style="-fx-background-color: red;" text="ID" />
+          <TableColumn fx:id="col_name" prefWidth="135.19996643066406" style="-fx-background-color: red;" text="name" />
+            <TableColumn fx:id="col_address" prefWidth="259.20001220703125" style="-fx-background-color: red;" text="address" />
+            <TableColumn fx:id="col_email" prefWidth="224.0" style="-fx-background-color: red;" text="email" />
+        </columns>
+      </TableView>
+      <Button fx:id="showClients" layoutX="313.0" layoutY="66.0" mnemonicParsing="false" onAction="#setTableView" style="-fx-background-color: red;" text="Show the clients in the database" textFill="WHITE" />
+   </children>
+</AnchorPane>
